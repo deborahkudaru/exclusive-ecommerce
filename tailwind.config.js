@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "system-ui"]
-      }
+      },
+      colors: {
+        customRed: '#DB4444',
+      },
     },
   },
   plugins: [],
