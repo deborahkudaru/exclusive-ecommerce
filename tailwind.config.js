@@ -12,6 +12,7 @@ module.exports = {
       },
       colors: {
         customRed: '#DB4444',
+        customGreen: '#00FF66',
       },
     },
   },
