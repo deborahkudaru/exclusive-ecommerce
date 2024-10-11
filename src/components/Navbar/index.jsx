@@ -3,16 +3,13 @@ import { CiHeart } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import Line from "../Line";
+import Logo from "../Logo";
 
 const Navbar = () => {
   return (
     <div>
       <div className="flex px-32 pt-10 pb-6 justify-between font-poppins">
-        <div className="">
-          <Link href="/" className="text-xl font-bold">
-            Exclusive
-          </Link>
-        </div>
+        <Logo />
         <nav>
           <ul className="flex gap-12">
             <li>

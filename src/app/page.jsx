@@ -1,5 +1,6 @@
 import Ads from "@/components/Ads";
 import Categories from "@/components/Categories";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import SellingProducts from "@/components/SellingProducts";
 import SideMenu from "@/components/SideMenu";
@@ -18,6 +19,7 @@ export default function Home() {
     <Todays />
     <Categories />
     <SellingProducts />
+    <Footer />
   </main>
   );
 }

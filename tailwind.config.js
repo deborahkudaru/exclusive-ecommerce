@@ -14,6 +14,9 @@ module.exports = {
         customRed: '#DB4444',
         customGreen: '#00FF66',
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [],
